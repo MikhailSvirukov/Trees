@@ -1,4 +1,4 @@
-abstract class BRTree<K, T>(): BinaryTree {
+abstract class BRTree<K, T>(): BinaryTree<K, T> {
     private var root:BRNode<K, T>?=null
 
     private fun leftRotation(node: AVLNode<K, T>) {}
